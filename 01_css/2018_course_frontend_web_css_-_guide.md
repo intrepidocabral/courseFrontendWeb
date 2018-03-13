@@ -44,8 +44,8 @@
 * https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Reference
 * https://developer.mozilla.org/pt-BR/docs/Web/CSS/sintaxe
 
-### Curso Frontend Web CSS #3 - Sintaxe, Classes e Ids
-
+### Curso Frontend Web CSS #4 - Sintaxe, Classes e Ids
+* Seletores ![Logo CSS 3](images/css_03_css_selectors.png)
 * Linkando html com css externo
 * Como usar classes CSS?
 * Como usar ids CSS?
@@ -56,9 +56,8 @@
 * https://developer.mozilla.org/pt-BR/docs/Web/CSS/sintaxe
 
 
-### Curso Frontend Web CSS #4 - Tipos de Seletores
-
-* Seletores ![Logo CSS 3](images/css_03_css_selectors.png)
+### Curso Frontend Web CSS #5 - Tipos de Seletores
+* Seletores ![Tipos de Seletores](images/type_selectors.png)
   * seletor universal
   * seletor de tipos
   * seletor de classes
@@ -70,28 +69,37 @@
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 * https://internetingishard.com/html-and-css/css-selectors/
 
-
-### Curso Frontend Web CSS #5 - Seletores Combinados
-*
-
-#### Referências:
-
-
-### Curso Frontend Web CSS #5 - Pseudo Classes
+### Curso Frontend Web CSS #6 - Seletores Simples vs Combinados
+* Seletores ![Seletores Combinados](images/combined_selectors.png)
+  * descendant selector (space)
+  * child selector (>)
+  * adjacent sibling selector (+)
+  * general sibling selector (~)
 
 #### Referências:
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Simple_selectors
+https://www.w3schools.com/css/css_combinators.asp
+https://www.wikitechy.com/css/css-selectors
 
-### Curso Frontend Web CSS #6 - Projetos
-
-#### Referências:
-* http://www.csszengarden.com
 
 ### Curso Frontend Web CSS #7 -
 
 #### Referências:
+* http://www.csszengarden.com
 
-### Curso Frontend Web CSS #8 -
+### Curso Frontend Web CSS #8 - Text: <h1>-<h6> headings, <p> paragraphs and <span> Spans
+
+#### Referências:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/span
+
+### Curso Frontend Web CSS #9 -
 
 #### Referências:
 
-### Curso Frontend Web CSS #9 -
+### Curso Frontend Web CSS #10 - Pseudo Classes
+
+#### Referências:
+
+### Curso Frontend Web CSS #11 - Projetos e frameworks

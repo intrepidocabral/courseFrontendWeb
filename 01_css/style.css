@@ -1,0 +1,58 @@
+
+/* ------------------------ */
+/* --- SIMPLE SELECTORS --- */
+/* ------------------------ */
+
+/* Universal Selector */
+*{
+  border: #00ff00 solid 1px;
+}
+
+/* Element Selector */
+p {
+  color: #0000ff;
+}
+
+/* ID Selector */
+#paragraphs{
+  color: #ffffff;
+}
+
+/* Class Selector */
+.paragraphs{
+  color: #ff0000;
+}
+
+/* Group Selector */
+h1, h2, p{
+  text-align: center;
+}
+
+/* Attribute Selector */
+[title~=flower] {
+    border: 5px solid #ff00ff;
+}
+
+/* ------------------------ */
+/* -- COMBINED SELECTORS -- */
+/* ------------------------ */
+
+/* Descendant Selector */
+div p{
+  text-shadow: 2px 2px #fff000;
+}
+
+/* Child Selector */
+div > p {
+    background-color: #000000;
+}
+
+/* Adjacent Sibling Selector */
+div + p {
+    background-color: #009000;
+}
+
+/* General Sibling Selector */
+div ~ p {
+    background-color: #900000;
+}
