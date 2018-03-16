@@ -90,7 +90,7 @@ https://www.w3schools.com/css/css_combinators.asp
 https://www.wikitechy.com/css/css-selectors
 
 ----
-### Curso Frontend Web CSS #7 - Estilizando texto I
+### Curso Frontend Web CSS #7 - Estilizando texto I - Fundamentos
 ![Seletores Combinados](images/courseFrontendWeb_css3_-_text_stylized.png)
 * Elementos
   * `<h1>-<h6>` headings
@@ -99,21 +99,28 @@ https://www.wikitechy.com/css/css-selectors
   * `<em>`
 * Propriedades
   * `color`: define a cor do texto
-  * `background-color`: define a cor de fundo do texto;
-  * `font-size`: define o tamanho do texto;
-  * `direction`: define a direção do texto
-  * `letter-spacing`:	aumenta ou diminui o espaço entre os caracteres de um texto
-  * `line-height`: define a altura entre linhas de um texto
 
 #### Referências:
-* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
-* https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/span
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals
 * https://developer.mozilla.org/en-US/docs/Web/CSS/color
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Color
 
 ----
 ### Curso Frontend Web CSS #8 - Estilizando texto II
 * Propriedades
+  * `font-family`: define uma ou mais fontes usadas em um texto
+  * `font-size`: define o tamanho do texto;
+
+#### Referências:
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units
+
+### Curso Frontend Web CSS #9 - Estilizando texto III
+* Propriedades
+* `direction`: define a direção do texto
+* `letter-spacing`:	aumenta ou diminui o espaço entre os caracteres de um texto
+* `line-height`: define a altura entre linhas de um texto
   * `text-align`: define o alinhamento horizontal do texto
   * `text-align-last`: define o alinhamento da última linha de um bloco de texto
   * `text-decoration`: define alguns tipos de decoração de um texto
@@ -121,12 +128,6 @@ https://www.wikitechy.com/css/css-selectors
   * `text-shadow`: define a sobra de um texto
   * `text-transform`: define parametros de capitalização de um texto
 
-
-#### Referências:
-
-
-### Curso Frontend Web CSS #9 - Estilizando texto III
-* Propriedades
   * `text-overflow`: define o modo de exibição de um conteúdo contido em um espaço menor do que o tamanho total do texto
   * `unicode-bidi`: define, junto com a propriedade `direction`	como um determinado texto é apresentado
   * `vertical-align`: define o alinhamento vertical de um texto
@@ -134,6 +135,11 @@ https://www.wikitechy.com/css/css-selectors
   * `word-spacing`: aumenta ou diminui os espaços entre palavras em um texto.
 #### Referências:
 *
+
+
+
+
+* `background-color`: define a cor de fundo do texto;
 
 ----
 ### Curso Frontend Web CSS #10 - Estilizando Listas I
