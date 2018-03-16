@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'BladeRunnerFont';
+    src:  url('fonts/BladeRunnerFont.ttf.woff') format('woff'),
+    url('fonts/BladeRunnerFont.ttf.svg#Blade-Runner-Movie-Font-2') format('svg'),
+    url('fonts/BladeRunnerFont.ttf.eot'),
+    url('fonts/BladeRunnerFont.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.image-responsive{
+  width: 100%;
+  height: auto;
+}
+
+.title-horizontal{
+  color: #113428;
+  font-size: 4rem;
+  font-family: BladeRunnerFont;
+  margin: 0;
+}
+
+.title-vertical{
+  color: #33554a;
+  font-size: 4rem;
+  font-family: BladeRunnerFont;
+//  transform: rotate(90deg);
+}
+
+.subtitle-quote{
+  color: #8a892e;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.textbody{
+  color: #2d233f;
+  letter-spacing: normal;
+  text-align: justify;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 10px;
+}
+.tag-title{
+  color: #660080;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.tag{
+  color: #ec9fff;
+  background-color: #7c6c9b;
+  font-size: 0.8rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 4px;
+}
+
+.tag:hover{
+  color: #e169ff;
+  background-color: #533075;
+}

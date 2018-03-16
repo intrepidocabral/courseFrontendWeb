@@ -48,7 +48,8 @@
 
 ----
 ### Curso Frontend Web CSS #4 - Sintaxe, Classes e Ids
-* Seletores ![CSS Selectors](images/courseFrontendWeb_css3_-_css_selectors.png)
+![CSS Selectors](images/courseFrontendWeb_css3_-_css_selectors.png)
+* Seletores
 * Linkando html com css externo
 * Como usar classes CSS?
 * Como usar ids CSS?
@@ -60,7 +61,8 @@
 
 ----
 ### Curso Frontend Web CSS #5 - Tipos de Seletores
-* Seletores ![Tipos de Seletores](images/courseFrontendWeb_css3_-_type_selectors.png)
+![Tipos de Seletores](images/courseFrontendWeb_css3_-_type_selectors.png)
+* Seletores
   * seletor universal
   * seletor de tipos
   * seletor de classes
@@ -75,7 +77,8 @@
 
 ----
 ### Curso Frontend Web CSS #6 - Seletores Simples vs Combinados
-* Seletores ![Seletores Combinados](images/courseFrontendWeb_css3_-_combined_selectors.png)
+![Seletores Combinados](images/courseFrontendWeb_css3_-_combined_selectors.png)
+* Seletores
   * descendant selector (space)
   * child selector (>)
   * adjacent sibling selector (+)
@@ -88,29 +91,36 @@ https://www.wikitechy.com/css/css-selectors
 
 ----
 ### Curso Frontend Web CSS #7 - Estilizando texto I
+![Seletores Combinados](images/courseFrontendWeb_css3_-_text_stylized.png)
 * Elementos
   * `<h1>-<h6>` headings
   * `<p>` paragraphs
   * `<span>` Spans
   * `<em>`
 * Propriedades
-  * `color: define` a cor do texto
-  * `direction: define` a direção do texto
+  * `color`: define a cor do texto
+  * `background-color`: define a cor de fundo do texto;
+  * `font-size`: define o tamanho do texto;
+  * `direction`: define a direção do texto
   * `letter-spacing`:	aumenta ou diminui o espaço entre os caracteres de um texto
   * `line-height`: define a altura entre linhas de um texto
 
 #### Referências:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
-https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/span
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+* https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/span
+* https://developer.mozilla.org/en-US/docs/Web/CSS/color
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Color
 
 ----
 ### Curso Frontend Web CSS #8 - Estilizando texto II
 * Propriedades
   * `text-align`: define o alinhamento horizontal do texto
+  * `text-align-last`: define o alinhamento da última linha de um bloco de texto
   * `text-decoration`: define alguns tipos de decoração de um texto
   * `text-indent`: define a identação da primeira linha de um bloco de texto
   * `text-shadow`: define a sobra de um texto
   * `text-transform`: define parametros de capitalização de um texto
+
 
 #### Referências:
 
@@ -175,6 +185,15 @@ https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/span
   * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd
   * https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists
 
+----
+### Curso Frontend Web CSS #11 -
+
+#### Referências:
+* Unidades de medida: https://www.w3.org/Style/Examples/007/units.pt_BR.html
+http://desenvolvimentoparaweb.com/css/unidades-css-rem-vh-vw-vmin-vmax-ex-ch/
+
+
+
 ### Curso Frontend Web CSS #11 - Pseudo Classes
 
 #### Referências:
@@ -186,3 +205,16 @@ http://www.csszengarden.com
 
 #### Referências:
 https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools
+
+Typografia
+https://en.wikipedia.org/wiki/Em_(typography)
+
+Font:
+https://developer.mozilla.org/en-US/docs/Web/CSS/font
+
+Css Tricks
+https://css-tricks.com/
+
+
+Canais de aprendizado:
+https://webdesign.tutsplus.com/series/learn-css-the-complete-guide--cms-1065

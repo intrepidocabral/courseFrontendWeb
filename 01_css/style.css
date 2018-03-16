@@ -6,6 +6,7 @@
 /* Universal Selector */
 *{
   border: #00ff00 solid 1px;
+  padding: 20px;
 }
 
 /* Element Selector */
@@ -55,4 +56,41 @@ div + p {
 /* General Sibling Selector */
 div ~ p {
     background-color: #900000;
+}
+
+h3 {
+  background-image: url("images/pattern1.jpg");
+  font-family: "Lucida Console", Monaco, monospace;
+	display: inline;
+	position: relative;
+	font-size: 100px;
+	letter-spacing: -5px;
+	color: rgba(87, 12, 156 ,0.6);
+}
+
+h3:after {
+  display: inline;
+	content: "[text stylized]";
+	position: absolute; left: 25px; top: 25px;
+	color: rgba(241, 38, 74,0.5);
+}
+
+.text1{
+  color: #c83737;
+  font-family: 'Monoton', cursive;
+}
+
+.text2{
+  color: #ff6600;
+  font-family: 'Special Elite', cursive;
+}
+
+.text3{
+  color: #00aa88;
+  font-family: 'Homemade Apple', cursive;
+}
+
+.text4{
+  color: #800080;
+  font-family: 'VT323', monospace;
 }
