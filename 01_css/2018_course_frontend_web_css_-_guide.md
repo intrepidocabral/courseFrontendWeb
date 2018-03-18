@@ -4,7 +4,7 @@
 
 ## Aulas
 
-### Curso Frontend Web CSS #1 - Introdução
+### Curso Frontend Web CSS #001 - Introdução
 
 ![Logo CSS 3](images/courseFrontendWeb_css3_-_logo_css3.svg)
 * Sobre o instrutor
@@ -22,7 +22,7 @@
 * https://developer.chrome.com/devtools
 
 ----
-### Curso Frontend Web CSS #2 - O que é o que é?
+### Curso Frontend Web CSS #002 - O que é o que é?
 ![O que é CSS?](images/courseFrontendWeb_css3_-_o_que_e_css.png)
 * O que é CSS?
 * Por que usar CSS?
@@ -36,7 +36,7 @@
 * https://en.wikipedia.org/wiki/Bert_Bos
 
 ----
-### Curso Frontend Web CSS #3 - Olá Mundo do CSS!
+### Curso Frontend Web CSS #003 - Olá Mundo do CSS!
 ![Olá Mundo com CSS](images/courseFrontendWeb_css3_-_ola_mundo.png)
 * Como escrever CSS? "olá mundo do css!"
 * CSS inline
@@ -47,7 +47,7 @@
 * https://developer.mozilla.org/pt-BR/docs/Web/CSS/sintaxe
 
 ----
-### Curso Frontend Web CSS #4 - Sintaxe, Classes e Ids
+### Curso Frontend Web CSS #004 - Sintaxe, Classes e Ids
 ![CSS Selectors](images/courseFrontendWeb_css3_-_css_selectors.png)
 * Seletores
 * Linkando html com css externo
@@ -60,7 +60,7 @@
 * https://developer.mozilla.org/pt-BR/docs/Web/CSS/sintaxe
 
 ----
-### Curso Frontend Web CSS #5 - Tipos de Seletores
+### Curso Frontend Web CSS #005 - Tipos de Seletores
 ![Tipos de Seletores](images/courseFrontendWeb_css3_-_type_selectors.png)
 * Seletores
   * seletor universal
@@ -76,7 +76,7 @@
 * https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors
 
 ----
-### Curso Frontend Web CSS #6 - Seletores Simples vs Combinados
+### Curso Frontend Web CSS #006 - Seletores Simples vs Combinados
 ![Seletores Combinados](images/courseFrontendWeb_css3_-_combined_selectors.png)
 * Seletores
   * descendant selector (space)
@@ -90,7 +90,7 @@ https://www.w3schools.com/css/css_combinators.asp
 https://www.wikitechy.com/css/css-selectors
 
 ----
-### Curso Frontend Web CSS #7 - Estilizando texto I - Fundamentos
+### Curso Frontend Web CSS #007 - Estilizando texto I - Fundamentos
 ![Seletores Combinados](images/courseFrontendWeb_css3_-_text_stylized.png)
 * Elementos
   * `<h1>-<h6>` headings
@@ -106,38 +106,121 @@ https://www.wikitechy.com/css/css-selectors
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Color
 
 ----
-### Curso Frontend Web CSS #8 - Estilizando texto II
+### Curso Frontend Web CSS #008 - Estilizando texto II
 * Propriedades
-  * `font-family`: define uma ou mais fontes usadas em um texto
+  * `font-family`: define uma ou mais fontes usadas em um texto;
   * `font-size`: define o tamanho do texto;
+* Unidades e valores de medidas;
 
 #### Referências:
 * https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
 * https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units
+* https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units
 
-### Curso Frontend Web CSS #9 - Estilizando texto III
+### Curso Frontend Web CSS #009 - Estilizando texto III
 * Propriedades
-* `direction`: define a direção do texto
-* `letter-spacing`:	aumenta ou diminui o espaço entre os caracteres de um texto
-* `line-height`: define a altura entre linhas de um texto
-  * `text-align`: define o alinhamento horizontal do texto
-  * `text-align-last`: define o alinhamento da última linha de um bloco de texto
-  * `text-decoration`: define alguns tipos de decoração de um texto
-  * `text-indent`: define a identação da primeira linha de um bloco de texto
-  * `text-shadow`: define a sobra de um texto
-  * `text-transform`: define parametros de capitalização de um texto
+  * `font-style`: define a condição itálico de um texto;
+  * `font-weight`:  define o quanto destacado em negrito um determinado texto deve ser;
 
-  * `text-overflow`: define o modo de exibição de um conteúdo contido em um espaço menor do que o tamanho total do texto
-  * `unicode-bidi`: define, junto com a propriedade `direction`	como um determinado texto é apresentado
-  * `vertical-align`: define o alinhamento vertical de um texto
-  * `white-space`: define como espaços em branco entre elementos de texto serão tratados.
-  * `word-spacing`: aumenta ou diminui os espaços entre palavras em um texto.
 #### Referências:
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-style
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+
+
+### Curso Frontend Web CSS #010 - Estilizando texto IV
+* Propriedades
+  * `text-transform`: define parametros de capitalização de um texto;
+  * `text-decoration`: define a edição de sublinhamento de um texto;
+    * `text-decoration-line`: uma especificação de `text-decoration` que define o tipo de sublinhado de um determinado texto;
+    * `text-decoration-color`: uma especificação de `text-decoration` que define a cor de um elemento sublinhado aplicado a um texto;
+    * `text-decoration-style`:  uma especificação de `text-decoration` que define o estilo do sublinhado aplicado a um texto;
+
+#### Referências:
+* https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform
+* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line
+* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color
+* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style
+
+### Curso Frontend Web CSS #011 - Estilizando texto V
+* Propriedades
+  * `text-shadow`: define a(s) sobra(s) de um texto;
+  * `text-align`: define o alinhamento horizontal do texto;
+  * `line-height`: define a altura entre linhas de um texto;
+
+#### Referências:
+* https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+* https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
+* https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+
+### Curso Frontend Web CSS #012 - Estilizando texto VI
+* Propriedades
+  * `font-variant`: ;
+    * `font-variant-caps`:  ;
+    * `font-variant-numeric`: ;
+    * `font-variant-alternates`: ;
+    * `font-variant-ligatures`: ;
+    * `font-variant-east-asian`: ;
+    
+#### Referências:
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-east-asian
+
+### Curso Frontend Web CSS #013 - Estilizando texto V
+* Propriedades
+  * ``: ;
+  * ``:  ;
+
+#### Referências:
+*
 *
 
 
+### Curso Frontend Web CSS #014 - Estilizando texto V
+* Propriedades
+  * ``: ;
+  * ``:  ;
 
+#### Referências:
+*
+*
+
+### Curso Frontend Web CSS #014 - Estilizando texto V
+* Propriedades
+  * ``: ;
+  * ``:  ;
+
+#### Referências:
+*
+*
+
+### Curso Frontend Web CSS #014 - Estilizando texto V
+* Propriedades
+  * ``: ;
+  * ``:  ;
+
+#### Referências:
+*
+*
+
+* `direction`: define a direção do texto
+* `letter-spacing`:	aumenta ou diminui o espaço entre os caracteres de um texto
+
+
+* `text-align-last`: define o alinhamento da última linha de um bloco de texto
+
+* `text-indent`: define a identação da primeira linha de um bloco de texto
+
+
+
+* `text-overflow`: define o modo de exibição de um conteúdo contido em um espaço menor do que o tamanho total do texto
+* `unicode-bidi`: define, junto com a propriedade `direction`	como um determinado texto é apresentado
+* `vertical-align`: define o alinhamento vertical de um texto
+* `white-space`: define como espaços em branco entre elementos de texto serão tratados.
+* `word-spacing`: aumenta ou diminui os espaços entre palavras em um texto.
 
 * `background-color`: define a cor de fundo do texto;
 
