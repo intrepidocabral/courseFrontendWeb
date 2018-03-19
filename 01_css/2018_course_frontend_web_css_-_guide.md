@@ -155,19 +155,28 @@ https://www.wikitechy.com/css/css-selectors
 
 ### Curso Frontend Web CSS #012 - Estilizando texto VI
 * Propriedades
-  * `font-variant`: ;
-    * `font-variant-caps`:  ;
-    * `font-variant-numeric`: ;
-    * `font-variant-alternates`: ;
-    * `font-variant-ligatures`: ;
-    * `font-variant-east-asian`: ;
-    
+  * `font-variant`: atalho condensador das propriedades font-variant. Definem a apresentação da letra inicial do período, a formatação de posição(sobrescrito/subescrito), font alternativa, entre outros efeitos no texto;
+    * `font-variant-alternates`: define o uso de glifos alternativos (adornos, etc) no texto;
+    * `font-variant-caps`: define a formatação dos glifos da letra inicial frente ao restante do texto;
+    * `font-variant-east-asian`: define glifos alternativos para formas de escrita de línguas do leste asiático como Mandarin e Japones;
+    * `font-variant-ligatures`: define a combinação de dois ou mais caracteres de maneira 'ligada';
+    * `font-variant-numeric`: ;    
+    * `font-variant-position`: ;
+
 #### Referências:
 * https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant
-* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric
 * https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates
-* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps
 * https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-east-asian
+  * https://drafts.csswg.org/css-fonts-3/#font-variant-east-asian-prop
+  * http://www.antennahouse.com/antenna1/wp-content/uploads/2018/02/axf-font-variant-east-asian-1.pdf
+  * http://br.maisfontes.com/hiragino-mincho-pro-w6
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures
+  * https://www.quackit.com/css/css3/properties/css_font-variant-ligatures.cfm
+  * https://fonts.google.com/specimen/Lora?selection.family=Lora
+* https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric
+* https://css-tricks.com/almanac/properties/f/font-variant-numeric/
+
 
 ### Curso Frontend Web CSS #013 - Estilizando texto V
 * Propriedades

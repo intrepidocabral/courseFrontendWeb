@@ -1,0 +1,126 @@
+/* sem formatação */
+.free{
+  color: red;
+}
+
+/* START Carregamento de fontes */
+@font-face {
+  font-family: "SourceSansPro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("SourceSansPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LeituraDisplaySwashes";
+  src: url("LeituraDisplaySwashes.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "hiragino-mincho-pro-w6";
+  src: url("hiragino-mincho-pro-w6.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "lora";
+  src: url("Lora-Regular.ttf") format("truetype");
+}
+
+@font-feature-values "LeituraDisplaySwashes" {
+    @swash { fancy: 3 }
+}
+/* END Carregamento de fontes */
+
+
+.fontVariantCaps{
+  font-variant-caps: small-caps;
+  color: green;
+}
+
+.fontVariantEastAsianSimplified{
+  font-family: "hiragino-mincho-pro-w6";
+  font-variant-east-asian: simplified;
+  color: blue;
+}
+
+.fontVariantEastAsianTradicional{
+  font-family: "hiragino-mincho-pro-w6";
+  font-variant-east-asian: traditional;
+  color: green;
+}
+
+.fontVariantLigatureNone{
+  font-family: "lora";
+  font-variant-ligatures: none;
+}
+
+.fontVariantLigatureNormal{
+  font-family: "lora";
+  font-variant-ligatures: normal;
+  color: green;
+}
+
+.variant {
+  font-family: "LeituraDisplaySwashes";
+  font-variant-alternates: normal;
+  color: blue;
+}
+
+.variant2 {
+  font-family: "LeituraDisplaySwashes";
+  font-variant-alternates: historical-forms;
+  color: blue;
+}
+
+.variant3 {
+  font-family: "LeituraDisplaySwashes";
+  font-variant-alternates: swash(fancy);
+  color: green;
+}
+
+
+.ordinal {
+  font-family: "SourceSansPro";
+  font-variant-numeric: ordinal;
+  color: green;
+}
+
+.slashed {
+  font-family: "SourceSansPro";
+  font-variant-numeric: slashed-zero;
+  color: green;
+}
+
+.lining {
+  font-family: "SourceSansPro";
+  font-variant-numeric: oldstyle-nums;
+  color: green;
+}
+
+.fractions {
+  font-family: "SourceSansPro";
+  font-feature-settings: frac;
+  font-variant-numeric: diagonal-fractions;
+  color: green;
+}
+
+.fractions2 {
+  font-family: "SourceSansPro";
+  font-feature-settings: afrc;
+  font-variant-numeric: stacked-fractions;
+  color: green;
+}
+
+.proportional {
+  font-family: "SourceSansPro";
+  font-feature-settings: pnum;
+  font-variant-numeric: proportional-nums;
+  color: green;
+}
+
+.tabular {
+  font-family: "SourceSansPro";
+  font-feature-settings: tnum;
+  font-variant-numeric: tabular-nums;
+  color: green;
+}
