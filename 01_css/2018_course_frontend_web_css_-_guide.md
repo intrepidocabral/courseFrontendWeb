@@ -109,14 +109,19 @@ https://www.wikitechy.com/css/css-selectors
 ### Curso Frontend Web CSS #008 - Estilizando texto II
 * Propriedades
   * `font-family`: define uma ou mais fontes usadas em um texto;
+    * Web Safe Fonts;
+    * `@font-face`: bloco de chamada e definição de uma familia de fontes;
   * `font-size`: define o tamanho do texto;
 * Unidades e valores de medidas;
 
 #### Referências:
 * https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
+  * https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts
+  * https://www.w3schools.com/cssref/css_websafe_fonts.asp
 * https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units
 
+----
 ### Curso Frontend Web CSS #009 - Estilizando texto III
 * Propriedades
   * `font-style`: define a condição itálico de um texto;
@@ -126,7 +131,7 @@ https://www.wikitechy.com/css/css-selectors
 * https://developer.mozilla.org/en-US/docs/Web/CSS/font-style
 * https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
 
-
+----
 ### Curso Frontend Web CSS #010 - Estilizando texto IV
 * Propriedades
   * `text-transform`: define parametros de capitalização de um texto;
@@ -142,6 +147,7 @@ https://www.wikitechy.com/css/css-selectors
 * https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color
 * https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style
 
+----
 ### Curso Frontend Web CSS #011 - Estilizando texto V
 * Propriedades
   * `text-shadow`: define a(s) sobra(s) de um texto;
@@ -153,6 +159,7 @@ https://www.wikitechy.com/css/css-selectors
 * https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
 * https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
 
+----
 ### Curso Frontend Web CSS #012 - Estilizando texto VI
 * Propriedades
   * `font-variant`: atalho condensador das propriedades font-variant. Definem a apresentação da letra inicial do período, a formatação de posição(sobrescrito/subescrito), font alternativa, entre outros efeitos no texto;
@@ -160,8 +167,8 @@ https://www.wikitechy.com/css/css-selectors
     * `font-variant-caps`: define a formatação dos glifos da letra inicial frente ao restante do texto;
     * `font-variant-east-asian`: define glifos alternativos para formas de escrita de línguas do leste asiático como Mandarin e Japones;
     * `font-variant-ligatures`: define a combinação de dois ou mais caracteres de maneira 'ligada';
-    * `font-variant-numeric`: ;    
-    * `font-variant-position`: ;
+    * `font-variant-numeric`: define o uso de glifos alternativos para números, frações e marcadores de números ordinais;
+    * `font-variant-position`: define o posicionamento sub-escrito ou sobre-escrito de um texto com relação a uma base normal fixa;
 
 #### Referências:
 * https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant
@@ -177,59 +184,73 @@ https://www.wikitechy.com/css/css-selectors
 * https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric
 * https://css-tricks.com/almanac/properties/f/font-variant-numeric/
 
-
-### Curso Frontend Web CSS #013 - Estilizando texto V
+----
+### Curso Frontend Web CSS #013 - Estilizando texto VII
 * Propriedades
-  * ``: ;
-  * ``:  ;
+  * `font-size-adjust`: ;
+  * `font-stretch`:  ;
+  * `text-underline-position`:  ;
+  * `text-rendering`: ;
 
 #### Referências:
 *
 *
 
-
-### Curso Frontend Web CSS #014 - Estilizando texto V
+----
+### Curso Frontend Web CSS #014 - Estilizando texto VIII
 * Propriedades
-  * ``: ;
-  * ``:  ;
+  * `text-indent`: define a identação da primeira linha de um bloco de texto;
+  * `text-overflow`: define o modo de exibição de um conteúdo contido em um espaço menor do que o tamanho total do texto;
+  * `white-space`: define como espaços em branco entre elementos de texto serão tratados;
 
 #### Referências:
 *
 *
 
-### Curso Frontend Web CSS #014 - Estilizando texto V
+----
+### Curso Frontend Web CSS #015 - Estilizando texto IX
 * Propriedades
-  * ``: ;
-  * ``:  ;
+  * `word-break`: define como o navegador deve se comportar em uma situação onde o texto de uma palavra excede o onde está contido. Literalmente a definição de 'quebra de palavra';
+  * `direction`: define a direção do texto;
+  * `unicode-bidi`: define, junto com a propriedade `direction`	como um determinado texto é apresentado;
+  * `hyphens`: define o suporte a hifenização de um texto;
 
 #### Referências:
 *
 *
 
-### Curso Frontend Web CSS #014 - Estilizando texto V
+----
+### Curso Frontend Web CSS #016 - Estilizando texto X
 * Propriedades
-  * ``: ;
-  * ``:  ;
+  * `line-break`: ;
+  * `letter-spacing`:	aumenta ou diminui o espaço entre os caracteres de um texto;
+  * `text-align-last`: define o alinhamento da última linha de um bloco de texto;
+  * `text-orientation`:
 
 #### Referências:
 *
 *
 
-* `direction`: define a direção do texto
-* `letter-spacing`:	aumenta ou diminui o espaço entre os caracteres de um texto
+----
+### Curso Frontend Web CSS #017 - Estilizando texto XI
+* Propriedades
+  * `vertical-align`: define o alinhamento vertical de um texto;
+  * `word-wrap`: ;
+  * `writing-mode`: ;
+  * `word-spacing`: aumenta ou diminui os espaços entre palavras em um texto;
 
+#### Referências:
+*
+*
 
-* `text-align-last`: define o alinhamento da última linha de um bloco de texto
+----
+### Curso Frontend Web CSS #018 - Estilizando texto XII
+* Propriedades
+  * ``: ;
 
-* `text-indent`: define a identação da primeira linha de um bloco de texto
-
-
-
-* `text-overflow`: define o modo de exibição de um conteúdo contido em um espaço menor do que o tamanho total do texto
-* `unicode-bidi`: define, junto com a propriedade `direction`	como um determinado texto é apresentado
-* `vertical-align`: define o alinhamento vertical de um texto
-* `white-space`: define como espaços em branco entre elementos de texto serão tratados.
-* `word-spacing`: aumenta ou diminui os espaços entre palavras em um texto.
+#### Referências:
+*
+*
 
 * `background-color`: define a cor de fundo do texto;
 

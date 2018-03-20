@@ -124,3 +124,18 @@
   font-variant-numeric: tabular-nums;
   color: green;
 }
+
+.fontVariantPositionNormal {
+  font-variant-position: normal;
+  color: gray;
+}
+
+.fontVariantPositionSuper {
+  font-variant-position: super;
+  color: green;
+}
+
+.fontVariantPositionSub {
+  font-variant-position: sub;
+  color: blue;
+}
